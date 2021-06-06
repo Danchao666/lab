@@ -10,8 +10,8 @@ install:
  - pip3 install flask-bootstrap
  - pip3 install flask-wtf 
  - pip3 install pillow
- - pip3 install tensorflow==2.0.0-alpha0
- - pip3 install keras 
+ - pip3 install tensorflow==2.4.0
+ - pip3 install keras==2.4.3
 script:
   - cd flaskapp
   - ./st.sh 
