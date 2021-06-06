@@ -1,5 +1,5 @@
 language: python
 install:
- -pip3 flask
+ pip3 flask
 script:
- -python3 ./flaskapp/some_app.py
+ python3 ./flaskapp/some_app.py
