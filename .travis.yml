@@ -1,0 +1,5 @@
+language: python
+install:
+ -pip3 flask
+script
+ -python3 ./flaskapp/some_app.py
